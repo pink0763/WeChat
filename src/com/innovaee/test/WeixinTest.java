@@ -10,6 +10,8 @@ public class WeixinTest {
 	public static void main(String[] args) {
 		try {
 			AccessToken token = WeixinUtil.getAccessToken();
+			
+			//test
 				
 //			MusicMessage musicMessage = JSONObject.fromObject(MessageUtil.initMusicMessage(toUserName, fromUserName));
 //			int result = MessageUtil.musicMessageToXml(musicMessage);
